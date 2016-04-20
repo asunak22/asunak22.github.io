@@ -8,7 +8,8 @@ border: solid 4px #26A65B;
 color: #26A65B;
 text-align: center;
 text-decoration: none; /* Another anchor tag only needed style */
-/*width: calc(500px);*/
+font-weight: bold;
+/*width: calc(4em+40%);*/
 margin: 0 auto 2% auto;;
 }
 

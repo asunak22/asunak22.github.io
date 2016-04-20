@@ -1,0 +1,28 @@
+.btn {
+  display: block; /* This helps with anchor tags that we want to look like buttons */
+background-color: white;
+padding: 1em 2em;
+border-radius: 10px;
+border: solid 4px #26A65B;
+color: #26A65B;
+text-decoration: none; /* Another anchor tag only needed style */
+}
+
+.btn:hover {
+background-color: #26A65B;
+border: solid 4px #26A65B;
+color: white;
+transition: ease 350ms;
+}
+
+.btn:active {
+outline: none;
+background-color: #3FC380;
+transition: ease 100ms;
+border: solid 4px #3FC380;
+color: white;
+}
+.btn:focus {
+outline: none;
+
+}

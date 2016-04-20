@@ -1,3 +1,4 @@
+
 .btn {
   display: block; /* This helps with anchor tags that we want to look like buttons */
 background-color: white;
@@ -5,8 +6,10 @@ padding: 1em 2em;
 border-radius: 10px;
 border: solid 4px #26A65B;
 color: #26A65B;
+text-align: center;
 text-decoration: none; /* Another anchor tag only needed style */
-width: calc(4em+40px);
+/*width: calc(500px);*/
+margin: 0 auto 2% auto;;
 }
 
 .btn:hover {

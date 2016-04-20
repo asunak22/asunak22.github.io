@@ -6,6 +6,7 @@ border-radius: 10px;
 border: solid 4px #26A65B;
 color: #26A65B;
 text-decoration: none; /* Another anchor tag only needed style */
+width: calc(4em+40px);
 }
 
 .btn:hover {

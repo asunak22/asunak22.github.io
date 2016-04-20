@@ -46,15 +46,53 @@
 
 <p>Just testing adding new paragraphs/tabs. Trying to add new pages within this site.</p>
 
-<h3>
 
-  <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Navigation Links</h3>
+<html>
+<head>
+<style>
+body {margin: 0;}
 
-  <p>Below are the links to navigate the site. They will redirect you accordingly.</p>
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-<p> <a href="http://www.taylorespinoza.com/page2.html">Page 2</a></p>
+ul.topnav li {float: left;}
 
-<p> <a href="http://www.taylorespinoza.com/about.html">About Me</a></p>
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="page2.html">Page2</a></li>
+<li class="right"><a href="about.html">About</a></li>
+</ul>
+
+</body>
+</html>
+
 
 
       <footer class="site-footer">

@@ -27,3 +27,6 @@
 	/** Unhide lightbox **/
 	display: block;
 }
+.smallimg {
+	height: 200px;
+}

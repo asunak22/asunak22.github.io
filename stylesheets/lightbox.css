@@ -17,7 +17,9 @@
 	/** Pad the lightbox image */
 	max-width: 90%;
 	max-height: 80%;
-	margin-top: 6%;
+	/*margin-top: 6%;*/
+  height: 75vh;
+  margin-top: 12.5vh;
 }
 
 .lightbox:target {
